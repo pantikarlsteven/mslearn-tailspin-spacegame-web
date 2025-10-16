@@ -15,9 +15,10 @@ steps:
     version: '6.x'
 
 - task: Npm@1
-  displayName: 'Run npm install'
+  displayName: 'Run npm install with legacy-peer-deps'
   inputs:
-    verbose: false
+    command: 'custom'
+    customCommand: 'install --legacy-peer-deps'
 
 - script: './node_modules/.bin/node-sass Tailspin.SpaceGame.Web/wwwroot --output Tailspin.SpaceGame.Web/wwwroot'
   displayName: 'Compile Sass assets'
