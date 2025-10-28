@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "serverfarms_Tailspin_Plan_name": {
+            "value": null
+        },
+        "sites_tailspin_spacegame_web_name": {
+            "value": null
+        },
+        "components_tailspin_spacegame_web_name": {
+            "value": null
+        },
+        "userAssignedIdentities_UADEVOPS_name": {
+            "value": null
+        },
+        "workspaces_DefaultWorkspace_b3342add_7cc4_491b_bf5e_e93aa8e970f2_SEA_externalid": {
+            "value": null
+        }
+    }
+}
